@@ -1,9 +1,14 @@
 # 二分查找及变式
+# 二分查找模版：
+# https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/
 
 
 # 普通的二分查找
 # 闭区间 【L, R】
 # 循环条件为 L <= R
+# 类似题目：
+# https://leetcode-cn.com/problems/guess-number-higher-or-lower/
+# https://leetcode-cn.com/problems/sqrtx/
 def bs1(arr, key):
     l = 0
     r = len(arr) - 1
